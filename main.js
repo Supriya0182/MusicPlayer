@@ -22,6 +22,7 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+  }
     {
     name: "Imagine Dragons - Thunder",
     artist: "Danny Delgado",
