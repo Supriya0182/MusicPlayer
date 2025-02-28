@@ -16,19 +16,16 @@ let track_index = 0;
 let isPlaying = false;
 let updateTimer;
 
-// Create new audio element
 let curr_track = document.createElement('audio');
 
-// Define the tracks that have to be played
 let track_list = [
   {
-  }
-    {
     name: "Imagine Dragons - Thunder",
     artist: "Danny Delgado",
     image: "https://i.pinimg.com/736x/e4/52/27/e452275dfe62f09f683113c6c25c3ce1.jpg",
-    path: ".songs/yt1s.com - POP Imagine Dragons  Thunder  Danny Delgado Remix.mp3",
+    path: "./songs/yt1s.com - POP Imagine Dragons  Thunder  Danny Delgado Remix.mp3",
   },
+  {
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
@@ -45,20 +42,14 @@ let track_list = [
     artist: "Chad Crouch",
     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
     path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
-  },
+  }
 ];
 
 function random_bg_color() {
-
-  // Get a number between 64 to 256 (for getting lighter colors)
   let red = Math.floor(Math.random() * 256) + 64;
   let green = Math.floor(Math.random() * 256) + 64;
   let blue = Math.floor(Math.random() * 256) + 64;
-
-  // Construct a color withe the given values
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
-
-  // Set the background to that color
   document.body.style.background = bgColor;
 }
 
@@ -84,7 +75,6 @@ function resetValues() {
   seek_slider.value = 0;
 }
 
-// Load the first track in the tracklist
 loadTrack(track_index);
 
 function playpauseTrack() {
@@ -101,7 +91,7 @@ function playTrack() {
 function pauseTrack() {
   curr_track.pause();
   isPlaying = false;
-  playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';;
+  playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
 }
 
 function nextTrack() {
@@ -151,4 +141,3 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
-
