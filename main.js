@@ -27,7 +27,7 @@ let track_list = [
     name: "Imagine Dragons - Thunder",
     artist: "Danny Delgado",
     image: "https://i.pinimg.com/736x/e4/52/27/e452275dfe62f09f683113c6c25c3ce1.jpg",
-    path: "yt1s.com - POP Imagine Dragons  Thunder  Danny Delgado Remix.mp3",
+    path: ".songs/yt1s.com - POP Imagine Dragons  Thunder  Danny Delgado Remix.mp3",
   },
     name: "Night Owl",
     artist: "Broke For Free",
