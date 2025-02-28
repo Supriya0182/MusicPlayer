@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+    {
+    name: "Imagine Dragons - Thunder",
+    artist: "Danny Delgado",
+    image: "https://i.pinimg.com/736x/e4/52/27/e452275dfe62f09f683113c6c25c3ce1.jpg",
+    path: "yt1s.com - POP Imagine Dragons  Thunder  Danny Delgado Remix.mp3",
+  },
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
