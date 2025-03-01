@@ -24,7 +24,7 @@ let track_list = [
   "artist": "SingerKing, Nick Jonas",
   "image": "https://i.pinimg.com/736x/ce/8d/a1/ce8da15573025577120b14df3b8c869d.jpg",
   "path": "https://pagalfree.com/musics/128-Maan%20Meri%20Jaan%20(Afterlife)%20-%20King%20128%20Kbps.mp3"
-}
+},
 
   {
     name: "Imagine Dragons - Thunder",
