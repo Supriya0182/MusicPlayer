@@ -26,6 +26,18 @@ let track_list = [
     path: "./songs/yt1s.com - POP Imagine Dragons  Thunder  Danny Delgado Remix.mp3",
   },
   {
+  name: "Heat Waves",
+  artist: "Glass Animals",
+  image: "https://i.scdn.co/image/ab67616d0000b2739e495fb707973f3390850eea",
+  path: "https://ia801205.us.archive.org/31/items/heat-waves-pagal-world/Heat-Waves%28PagalWorld%29.mp3",
+},
+  {
+    name: "Dandelions",
+    artist: "Ruth B",
+    image: "https://i.pinimg.com/736x/6d/4e/6d/6d4e6db280dcecb3013649d68482ca34.jpg",
+    path: "https://ia801505.us.archive.org/32/items/ruth-b.-dandelions-lyrics_202208/Ruth%20B.%20-%20Dandelions%20%28Lyrics%29.mp3"
+  },
+  {
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
