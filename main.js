@@ -42,7 +42,8 @@ let track_list = [
     name: "Dandelions",
     artist: "Ruth B",
     image: "https://i.pinimg.com/736x/6d/4e/6d/6d4e6db280dcecb3013649d68482ca34.jpg",
-    path: "https://ia801505.us.archive.org/32/items/ruth-b.-dandelions-lyrics_202208/Ruth%20B.%20-%20Dandelions%20%28Lyrics%29.mp3"
+    path: "https://ia801505.us.archive.org/32/items/ruth-b.-dandelions-lyrics_202208/Ruth%20B.%20-%20Dandelions%20%28Lyrics%29.mp3",
+    video: "https://v1.pinimg.com/videos/mc/720p/5c/43/f9/5c43f9a322602c85b654a5cf3a193bc1.mp4",
   },
   {
     name: "Night Owl",
